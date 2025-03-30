@@ -3,17 +3,17 @@ from dotenv import load_dotenv
 
 load_dotenv(".env")
 
-MAX_BOT = int(os.getenv("MAX_BOT", "60"))
+MAX_BOT = int(os.getenv("MAX_BOT", "6000"))
 
-DEVS = list(map(int, os.getenv("ZEX", "6530352261").split()))
+DEVS = list(map(int, os.getenv("Mikasa Cloud", "6498128655").split()))
 
 API_ID = int(os.getenv("API_ID", ""))
 
 API_HASH = os.getenv("API_HASH", "")
 
-BOT_TOKEN = os.getenv("7835831296:AAG-kePOd3oDhwPTk_6H7n3WZ6u7sw5cSs0", "")
+BOT_TOKEN = os.getenv("7257811101:AAH6GBqDMa1eX3C6mAR_iIbjscsoe1qRJQU", "")
 
-OWNER_ID = int(os.getenv("6530352261", ""))
+OWNER_ID = int(os.getenv("6498128655", ""))
 
 BLACKLIST_CHAT = list(map(int, os.getenv("BLACKLIST_CHAT", "-1002341528178").split()))
 
