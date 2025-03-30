@@ -5,7 +5,7 @@ load_dotenv(".env")
 
 MAX_BOT = int(os.getenv("MAX_BOT", "6000"))
 
-DEVS = list(map(int, os.getenv("Mikasa Cloud", "6498128655").split()))
+DEVS = list(map(int, os.getenv("ZEX", "6498128655").split()))
 
 API_ID = int(os.getenv("API_ID", ""))
 
